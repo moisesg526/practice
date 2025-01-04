@@ -8,17 +8,18 @@ h2 {
   font-size: 25px;
   padding: 1rem 0;
   border: 10px solid gold;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 span {
   border: 1px solid black;
   padding: 6px;
+  color: blue;
 }
 
 section {
   width: 25%;
   height: 200px;
   border: 2px solid purple;
-  margin: auto;
+  margin: 0 auto;
 }
