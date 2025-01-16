@@ -91,3 +91,34 @@ main p,
   background-color: inherit;
   padding: 1rem 2rem;
 }
+
+footer {
+    background-color: #18272f;
+    padding: 0 2rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ft-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.footer-bottom {
+    justify-content: left;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
