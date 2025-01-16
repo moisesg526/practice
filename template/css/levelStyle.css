@@ -105,6 +105,7 @@ footer {
 a {
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
 }
 
 .ft-info {
@@ -114,11 +115,15 @@ a {
     gap: 1rem;
 }
 
-.footer-bottom {
-    justify-content: left;
+.ft-info ul {
+    padding: 0;
+    font-size: 0.9rem;
 }
 
-hr {
-    width: 90%;
-    margin: auto;
+.ft-info p {
+    max-width: 20ch;
+  }
+
+.footer-bottom {
+    justify-content: left;
 }
