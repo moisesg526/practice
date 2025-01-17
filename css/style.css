@@ -1,25 +1,33 @@
-h1 {
-  font-size: 30px;
-  padding-left: 10px;
-  border: 2px solid red;
+* {
+  box-sizing: border-box;
 }
 
-h2 {
-  font-size: 25px;
-  padding: 1rem 0;
-  border: 10px solid gold;
-  margin: 2rem 0;
-}
-
-span {
-  border: 1px solid black;
-  padding: 6px;
-  color: blue;
+header,
+footer {
+  height: 100px;
+  border: 2px solid black;
+  clear: both;
 }
 
 section {
-  width: 25%;
+  border: 1px solid black;
   height: 200px;
-  border: 2px solid purple;
-  margin: 0 auto;
+  width: 20%;
+  float: left;
+}
+
+.bottom {
+  width: 50%;
+}
+
+.twice {
+  width: 40%;
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    background-color: aqua;
+    width: 100%;
+    float: top;
+  }
 }
