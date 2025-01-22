@@ -5,13 +5,16 @@
 nav,
 main,
 .main-left,
-ul {
+ul,
+.features {
   display: flex;
   align-items: center;
   background-color: #e9eff0;
 }
 
-nav {
+nav,
+main,
+.features {
   padding: 2rem 0;
   justify-content: space-around;
 }
@@ -28,11 +31,6 @@ ul {
 a {
   text-decoration: none;
   color: #363636;
-}
-
-main {
-  justify-content: space-around;
-  padding: 2rem 0;
 }
 
 h1 {
@@ -52,21 +50,46 @@ p {
 }
 
 .main-form {
-    padding: 0 0 0 .4rem;
-    background-color: #dedede;
+  padding: 0 0 0 0.4rem;
+  background-color: #dedede;
 }
 
 input {
-    border: none;
-    background-color: #dedede;
-    outline: none
+  border: none;
+  background-color: #dedede;
+  outline: none;
 }
 
 button {
-    background-color: #4ab9cd9b;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 1px;
-    color: #fff;
-    cursor: pointer;
+  background-color: #4ab9cd9b;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.features a {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.bottom {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bottom h2,
+.bottom p {
+  padding: 0 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.computer {
+  width: 40rem;
 }
