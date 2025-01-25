@@ -50,3 +50,13 @@ function zero() {
   count = 0;
   return (document.querySelector("#display-number").textContent = count);
 }
+
+let temp = 0;
+document.querySelector("#farenheit").textContent = temp;
+document.querySelector("#enter").addEventListener("click", convert);
+
+function convert() {
+  let convert = document.querySelector("#converter").value;
+  temp = (convert * 9) / 5 + 32;
+  return (document.querySelector("#farenheit").textContent = temp);
+}
