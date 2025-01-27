@@ -94,3 +94,20 @@ main {
   line-height: 1.5rem;
 }
 
+.momentum-sec {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+}
+.momentum-sec > section {
+    margin: auto 0;
+    line-height: 2rem;
+    max-width: 20rem;
+    max-height: 50rem;
+}
+
+.momentum-sec > img {
+    width: 15rem;
+    height: auto;
+}
