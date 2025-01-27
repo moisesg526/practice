@@ -60,3 +60,19 @@ function convert() {
   temp = (convert * 9) / 5 + 32;
   return (document.querySelector("#farenheit").textContent = temp);
 }
+
+function addTwoNums(num1, num2) {
+  alert(num1 + num2);
+}
+
+function multiplyThreeNums(num1, num2, num3) {
+  console.log(num1 * num2 * num3);
+}
+
+function divideTwoNums(num1, num2) {
+  console.log(num1 / num2);
+}
+
+addTwoNums(1, 2);
+multiplyThreeNums(2, 3, 4);
+divideTwoNums(10, 3);
