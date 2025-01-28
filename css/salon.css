@@ -111,3 +111,21 @@ main {
     width: 15rem;
     height: auto;
 }
+
+.stylist {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.stylist > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stylist img {
+    max-width: 20rem;
+    padding-bottom: 1rem;
+}
